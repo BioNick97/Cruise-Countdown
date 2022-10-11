@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Transatlantic;
+  src:url(/Assets/Fonts/Transatlantic\ Cruise\ Demo.ttf);
+}
+body {
+  background-image: url(/Assets/photos/colin-lloyd-Jxyph6ZgbtA-unsplash.jpg);
+  background-color: rgb(0, 255, 255, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  size: 100vh;
+  background-position: center;
+
+}
+
+
+.countdown {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 10px;
+  border-style: double;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  
+  
+}
+
+.event {
+  font-family: Transatlantic;
+  font-size: 60px;
+}
+
+.line-break {
+  border-radius: 100%;
+  border: 2px solid black;
+  margin: auto;
+  width: 75%;
+}
+
+#days-till {
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 10px;
+}
