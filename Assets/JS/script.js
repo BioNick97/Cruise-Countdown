@@ -13,7 +13,7 @@ const countdown = () => {
   //Calculations
   const endDay = Math.floor(gap / day);
 
-  document.getElementById("days-till").innerHTML = endDay + " days till Departure";
+  document.getElementById("countdown").innerHTML = endDay + " days till Departure";
 
 };
 
