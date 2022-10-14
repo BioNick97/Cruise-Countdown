@@ -11,10 +11,17 @@ const countdown = () => {
   const day = hour * 24;
 
   //Calculations
-  const endDay = Math.floor(gap / day);
+  const daysTill = Math.floor(gap / day);
+  const hoursTill = Math.floor((gap % day) / hour);
+  const minutesTill = Math.floor((gap % hour) / minute);
+  const secondsTill = Math.floor((gap % minute) / second);
 
-  document.getElementById("countdown").innerHTML = endDay + " days till Departure";
+  //Display
+  document.getElementById("day").innerHTML = daysTill;
+  document.getElementById("hour").innerHTML = hoursTill;
+  document.getElementById("minute").innerHTML = minutesTill;
+  document.getElementById("second").innerHTML = secondsTill;
 
 };
 
-countdown();
+setInterval(countdown, 1000);

@@ -38,6 +38,7 @@ body {
 .event {
   font-family: Transatlantic;
   font-size: 60px;
+  padding-bottom: 2px;
 }
 
 .line-break {
@@ -47,10 +48,19 @@ body {
   width: 75%;
 }
 
-#countdown {
+.countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 280px;
   font-size: 24px;
   font-family: 'Dancing Script', cursive;
   padding-top: 10px;
+}
+
+.days, .hours, .minutes, .seconds {
+  text-align: center;
 }
 
 .footer {
@@ -73,6 +83,6 @@ body {
 .linkedin-logo {
   width: 110%;
   height: 20px;
-  padding-left: 5px;
+  padding-right: 5px;
   padding-top: 1px;
 }
