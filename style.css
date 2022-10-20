@@ -5,10 +5,10 @@
 }
 @font-face {
   font-family: Transatlantic;
-  src:url(Transatlantic\ Cruise\ Demo.ttf);
+  src:url(/Assets/Fonts/Transatlantic\ Cruise\ Demo.ttf);
 }
 body {
-  background-image: url(colin-lloyd-Jxyph6ZgbtA-unsplash.jpg);
+  background-image: url(/Assets/photos/colin-lloyd-Jxyph6ZgbtA-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover; 
   background-attachment: fixed;
